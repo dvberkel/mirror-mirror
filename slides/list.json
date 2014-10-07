@@ -1,1 +1,11 @@
-["index.md"]
+[
+    "index.md",
+    [
+        "stepmother.md",
+        "mirror.md",
+        "snow-white.md",
+        "dwarfs.md",
+        "gift.md",
+	"poisoning.md"
+    ]
+]
