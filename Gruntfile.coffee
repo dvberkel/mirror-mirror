@@ -29,7 +29,7 @@ module.exports = (grunt) ->
             jshint:
                 files: ['js/*.js']
                 tasks: ['jshint']
-        
+
         connect:
 
             livereload:
@@ -65,6 +65,7 @@ module.exports = (grunt) ->
                 files: [{
                     expand: true
                     src: [
+                        'image/**'
                         'slides/**'
                         'bower_components/**'
                         'js/**'
@@ -77,7 +78,7 @@ module.exports = (grunt) ->
                     filter: 'isFile'
                 }]
 
-        
+
 
 
     # Load all grunt tasks.
@@ -125,7 +126,7 @@ module.exports = (grunt) ->
             'copy'
         ]
 
-    
+
 
     # Define default task.
     grunt.registerTask 'default', [
