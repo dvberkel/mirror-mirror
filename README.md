@@ -16,6 +16,16 @@ tools first install node, then execute the following command.
 npm install --global yo grunt-cli bower
 ```
 
+### Generator
+
+[yo][] depends on externally defined generators to scaffold the
+project. We are using the [reveal generator][generator-reveal]. It can
+be installed with the following command.
+
+```sh
+npm install --global generator-reveal
+```
+
 [yo]: http://yeoman.io/
 [grunt]: http://gruntjs.com/
 [bower]: http://bower.io/
