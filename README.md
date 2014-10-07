@@ -26,6 +26,29 @@ be installed with the following command.
 npm install --global generator-reveal
 ```
 
+### Dependencies
+
+Dependencies are either managed by `npm` or `bower`. Make sure to
+update the respective configuration files to keep the dependencies in sync.
+
+#### Project
+
+The projects dependencies are listed in `package.json`. To install
+them execute
+
+```sh
+npm install
+```
+
+#### Presentation
+
+The presentations dependencies are listed in `bower.json`. Install
+them with
+
+```sh
+bower install
+```
+
 [yo]: http://yeoman.io/
 [grunt]: http://gruntjs.com/
 [bower]: http://bower.io/
